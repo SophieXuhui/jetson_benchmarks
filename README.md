@@ -39,6 +39,8 @@ Note: All libraries will be installed for ```python3```
 #### Running All Benchmark Models at Once
 ``` sudo python3 benchmark.py --all --csv_file_path <path-to>/benchmark_csv/nx-benchmarks.csv --model_dir <absolute-path-to-downloaded-models>```  <br />
 
+Note: Using default csv, only get limited latency. Modify batchsize bigger, will get max throughoutput. (add by xuhui)
+
 #### Sample Output
 |  **Model Name** | **FPS** |
 | :--- | :--- |
